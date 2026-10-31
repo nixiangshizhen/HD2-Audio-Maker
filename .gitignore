@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 构建产物
+build/
+dist/
+*.spec
+
+# 运行期数据（体积大、随机器不同）
+data/catalog.sqlite*
+data/notes.sqlite*
+data/update_state.json
+data/prefs.json
+.cache/
+exports/
+projects/
+log/
+*.log
+
+# 开发用临时件
+probe/
+_tmp/
+dev_data.txt
